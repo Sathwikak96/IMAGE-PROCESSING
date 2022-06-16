@@ -1,4 +1,4 @@
-#1. Develop a program to display a grayscale image using read and write operation?<br>
+# 1. Develop a program to display a grayscale image using read and write operation?<br>
 pip install opencv-python<br>
 import cv2<br>
 img=cv2.imread('F1.jfif',0)<br>
@@ -9,7 +9,7 @@ cv2.destroyAllWindows()<br>
 <br>
 <br>
 <br>
-#2. Develop a program to display the image using matplotlib?<br>
+# 2. Develop a program to display the image using matplotlib?<br>
 import matplotlib.image as mping<br>
 import matplotlib.pyplot as plt<br>
 img=mping.imread('F1.jfif')<br>
