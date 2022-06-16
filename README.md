@@ -6,7 +6,7 @@ cv2.imshow('image',img)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)<br>
 <br>
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt<br>
 img=mping.imread('F1.jfif')<br>
 plt.imshow(img)<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)<br>
 <br>
@@ -33,7 +33,7 @@ img.show()<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)<br>
 <br>
@@ -48,7 +48,7 @@ print(img2)<br>
 img3=ImageColor.getrgb("pink")<br>
 print(img3)<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174041325-6755a879-4216-49e7-ae20-13a5c31b9320.png)
 <br>
@@ -59,7 +59,7 @@ from PIL import Image<br>
 img=Image.new('RGB',(200,400),(255,0,0))<br>
 img.show()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174042123-12f038b4-ff4f-4e51-8af6-d2f0690fccb3.png)<br>
 <br>
@@ -79,7 +79,7 @@ img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.imshow(img)<br>
 plt.show()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174044873-31e49b84-bced-4a2f-b705-9ec5a36332e1.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/174048463-920d342c-a558-4a75-b35d-22bc46358095.png)<br>
@@ -97,7 +97,7 @@ print("Width:",image.width)<br>
 print("Height:",image.height)<br>
 image.close()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174045745-6264bf37-0373-48de-8677-0da4a745b40c.png)<br>
 <br>
@@ -116,7 +116,7 @@ cv2.imshow("Binary",bw_img)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174049483-f5d7ce12-36b2-44df-8596-8a1ed25cafe7.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/174049629-845c7b1a-c884-4987-aaa6-6d83dbf7b8b6.png)<br>
@@ -135,7 +135,7 @@ cv2.imshow('Resized image',imgresize)<br>
 print('Resized image length width',imgresize.shape)<br>
 cv2.waitKey(0)<br>
 <br>
-# OUTPUT:-<br>
+OUTPUT:-<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174050648-0972a7fa-918b-438a-a454-2842c1870d7f.png)<br>
 
