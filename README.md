@@ -64,7 +64,7 @@ img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.imshow(img)<br>
 plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97940151/174044873-31e49b84-bced-4a2f-b705-9ec5a36332e1.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/174044994-d12a722e-b94c-4b79-8f28-94d59404b4c6.png)<br>
+
 <br>
 <br>
 <br>
@@ -78,6 +78,7 @@ print("Size:",image.size)<br>
 print("Width:",image.width)<br>
 print("Height:",image.height)<br>
 image.close()<br>
+OUTPUT<br>
 ![image](https://user-images.githubusercontent.com/97940151/174045745-6264bf37-0373-48de-8677-0da4a745b40c.png)<br>
 
 
