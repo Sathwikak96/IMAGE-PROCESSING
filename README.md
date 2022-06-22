@@ -179,12 +179,14 @@ plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97940151/175019101-a8f8672f-89d2-4c6d-afce-d3185ca09c65.png)<br>
 
 light_white=(0,0,200)<br>
-dark_white=(145,60,255)
-mask_white=cv2.inRange(hsv_img,light_white,dark_white)
-result_white=cv2.bitwise_and(img,img,mask=mask_white)
-plt.subplot(1,2,1)
-plt.imshow(mask_white,cmap='gray')
-plt.subplot(1,2,2)
-plt.imshow(result_white)
-plt.show()
-
+dark_white=(145,60,255)<br>
+mask_white=cv2.inRange(hsv_img,light_white,dark_white)<br>
+result_white=cv2.bitwise_and(img,img,mask=mask_white)<br>
+plt.subplot(1,2,1)<br>
+plt.imshow(mask_white,cmap='gray')<br>
+plt.subplot(1,2,2)<br>
+plt.imshow(result_white)<br>
+plt.show()<br>
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/97940151/175021934-41f82d64-17da-4c0b-9fc6-e985d177198c.png)<br>
