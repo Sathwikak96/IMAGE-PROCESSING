@@ -140,3 +140,15 @@ OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/174050648-0972a7fa-918b-438a-a454-2842c1870d7f.png)<br>
 
 
+from skimage import io<br>
+import matplotlib.pyplot as plt<br>
+url='https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png'<br>
+image=io.imread(url)<br>
+plt.imshow(image)<br>
+plt.show()<br>
+<br>
+<br>
+OUTPUT:-<br>
+<br>
+<br>
+![image](https://user-images.githubusercontent.com/97940151/175003304-bdfba57d-b02a-4140-bc16-9bf5a3913cbb.png)<br>
