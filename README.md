@@ -143,21 +143,15 @@ original image length width (181, 278, 3) Resized image length width (160, 150, 
 <br>
 <br>
 
-10. Develop a program to read image using URL ?<br>
-from skimage import io<br>
-import matplotlib.pyplot as plt<br>
-url='https://user-images.githubusercontent.com/97940151/178218434-d67a06a1-3c12-40d7-bfc4-b126dbd88665.png
-'<br>
-image=io.imread(url)<br>
-plt.imshow(image)<br>
-plt.show()<br>
-<br>
-<br>
-OUTPUT:-<br>
-![image](https://user-images.githubusercontent.com/97940151/178220453-1b95e77f-5bd1-4e32-b6f4-ea594b3ce7d5.png)
-<br>
-<br>
-<br>
+ 10. Develop a program to read image using URL ?<br>
+ url from skimage import io<br>
+ import matplotlib.pyplot as plt<br>
+ url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3VyCF39_x0MhTZema9w9qnFPw6SgAAnY0lA&usqp=CAU'<br>
+ image=io.imread(url)<br>
+ plt.imshow(image)<br>
+ plt.show()<br>
+ OUTPUT:-<br>
+ https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3VyCF39_x0MhTZema9w9qnFPw6SgAAnY0lA&usqp=CAU
 
 11. Write a program to mask and blur the image?<br>
 import cv2<br>
