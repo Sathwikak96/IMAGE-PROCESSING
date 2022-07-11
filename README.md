@@ -188,5 +188,5 @@ plt.subplot(1,2,2)<br>
 plt.imshow(result_white)<br>
 plt.show()<br>
 <br>
-<br>
+
 ![image](https://user-images.githubusercontent.com/97940151/175021934-41f82d64-17da-4c0b-9fc6-e985d177198c.png)<br>
