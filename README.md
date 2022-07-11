@@ -139,7 +139,7 @@ OUTPUT:-<br>
 <br>
 
 
-10.Develop a program to read image using URL ?<br>
+10. Develop a program to read image using URL ?<br>
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
 url='https://user-images.githubusercontent.com/97940151/178218434-d67a06a1-3c12-40d7-bfc4-b126dbd88665.png
@@ -149,14 +149,13 @@ plt.imshow(image)<br>
 plt.show()<br>
 <br>
 <br>
-OUTPUT:-
+OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/178218334-9a2c4676-4a5b-48c4-b340-d3feb00dd3bb.png)
-
 <br>
 <br>
 <br>
 
-<br>
+
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174050648-0972a7fa-918b-438a-a454-2842c1870d7f.png)
 
