@@ -151,7 +151,7 @@ original image length width (181, 278, 3) Resized image length width (160, 150, 
  plt.imshow(image)<br>
  plt.show()<br>
  OUTPUT:-<br>
- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3VyCF39_x0MhTZema9w9qnFPw6SgAAnY0lA&usqp=CAU
+![image](https://user-images.githubusercontent.com/97940151/178225320-9bd09b8c-73a2-4b6e-8e93-744847b3d237.png)
 
 11. Write a program to mask and blur the image?<br>
 import cv2<br>
