@@ -143,7 +143,7 @@ original image length width (181, 278, 3) Resized image length width (160, 150, 
 <br>
 <br>
 
- 10. Develop a program to read image using URL ?<br>
+ # 10. Develop a program to read image using URL ?<br>
  url from skimage import io<br>
  import matplotlib.pyplot as plt<br>
  url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3VyCF39_x0MhTZema9w9qnFPw6SgAAnY0lA&usqp=CAU'<br>
@@ -153,8 +153,7 @@ original image length width (181, 278, 3) Resized image length width (160, 150, 
  OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/178225320-9bd09b8c-73a2-4b6e-8e93-744847b3d237.png)
 
-11. Write a program to mask and blur the image?<br>
-**Write aprogram to mask and blur the image**<br>
+# 11. Write a program to mask and blur the image?<br>
 import cv2<br>
 import matplotlib.image as mpimg<br>
 import matplotlib.pyplot as plt<br>
@@ -209,7 +208,7 @@ plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97940851/175257079-4bb9e433-07be-4e17-a7df-43fbac0010f6.png)
 
 
-**Write a program to perform airthmetic operation on image**
+#12. Write a program to perform airthmetic operation on image<br>
 
 import cv2<br>
 import matplotlib.image as mping<br>
@@ -242,7 +241,7 @@ plt.show()<br>
 #saving<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 
-**OUTPUT**
+#OUTPUT
 
 ![image](https://user-images.githubusercontent.com/97940851/175271361-f69fd056-0c9f-48de-9f0e-58f179e3165a.png)
 
@@ -284,8 +283,7 @@ cv2.destroyAllWindows()<br><br>
 
 
 
-**Program to create an image using**
-import cv2 as c<br>
+#13. Program to create an image using
 import numpy as np<br>
 from PIL import Image<br>
 array=np.zeros([100,200,3],dtype=np.uint8)<br>
@@ -301,7 +299,7 @@ c.waitKey(0)<br><br>
 ![image](https://user-images.githubusercontent.com/97940851/175283707-b07903e6-eeae-4838-85e7-bd7f7177f98c.png)
 
 
-**Bitwise Operator**
+#14. Bitwise Operator
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 image1=cv2.imread('images1.jpg',1)<br>
@@ -329,7 +327,7 @@ cv2.waitKey(0)<br>
 ![image](https://user-images.githubusercontent.com/97940851/176408534-33a0ecb4-97a0-4532-bf63-8a862d95fc5f.png)
 
 
-**Blurring Image**
+#15. Blurring Image
 
 #importing libraries<br>
 import cv2<br>
@@ -363,7 +361,7 @@ cv2.destroyAllWindows()<br>
 
 
 
-**Image Enhancement**
+#16.Image Enhancement
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -399,7 +397,7 @@ image_sharped.show()<br>
 ![image](https://user-images.githubusercontent.com/97940851/176418351-7d56cbee-457d-4183-8470-8c1325c98cde.png)
 
 
-**Morphological Operation**
+#17.Morphological Operation
 
 import cv2<br>
 import numpy as np<br>
