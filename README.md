@@ -159,10 +159,7 @@ OUTPUT:-<br>
 <br>
 <br>
 
-
-<br>
-![image](https://user-images.githubusercontent.com/97940151/174050648-0972a7fa-918b-438a-a454-2842c1870d7f.png)
-
+11. Write a program to mask and blur the image?<br>
 import cv2<br>
 import matplotlib.image as mpimg<br>
 import matplotlib.pyplot as plt<br>
