@@ -148,10 +148,11 @@ plt.imshow(image)<br>
 plt.show()<br>
 <br>
 <br>
-OUTPUT:-<br>
+OUTPUT:-
 <br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/175003304-bdfba57d-b02a-4140-bc16-9bf5a3913cbb.png)<br>
+<br>
+
 <br>
 <br>
 
