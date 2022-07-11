@@ -136,7 +136,8 @@ print('Resized image length width',imgresize.shape)<br>
 cv2.waitKey(0)<br>
 <br>
 OUTPUT:-<br>
-![image](https://user-images.githubusercontent.com/97940151/178219499-b7d4ba70-830a-4d33-bb4a-25f78e0e9b1e.png)
+original image length width (181, 278, 3) Resized image length width (160, 150, 3) -1
+![image](https://user-images.githubusercontent.com/97940151/178219499-b7d4ba70-830a-4d33-bb4a-25f78e0e9b1e.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178219546-85693bc0-2448-4c6a-a2c5-7ed1868b1a50.png)
 <br>
 <br>
