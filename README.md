@@ -137,9 +137,9 @@ cv2.waitKey(0)<br>
 <br>
 OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174050648-0972a7fa-918b-438a-a454-2842c1870d7f.png)<br>
 
 
+10.Develop a program to read image using URL ?<br>
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
 url='https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png'<br>
