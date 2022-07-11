@@ -142,7 +142,8 @@ OUTPUT:-<br>
 10.Develop a program to read image using URL ?<br>
 from skimage import io<br>
 import matplotlib.pyplot as plt<br>
-url='https://static.scientificamerican.com/sciam/cache/file/7A715AD8-449D-4B5A-ABA2C5D92D9B5A21_source.png'<br>
+url='https://user-images.githubusercontent.com/97940151/178218434-d67a06a1-3c12-40d7-bfc4-b126dbd88665.png
+'<br>
 image=io.imread(url)<br>
 plt.imshow(image)<br>
 plt.show()<br>
