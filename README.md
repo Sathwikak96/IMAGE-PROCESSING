@@ -149,6 +149,8 @@ plt.show()<br>
 <br>
 <br>
 OUTPUT:-
+![image](https://user-images.githubusercontent.com/97940151/178218334-9a2c4676-4a5b-48c4-b340-d3feb00dd3bb.png)
+
 <br>
 <br>
 <br>
