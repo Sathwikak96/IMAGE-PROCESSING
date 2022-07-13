@@ -385,15 +385,11 @@ image_sharped.show()<br>
 
 **OUTPUT**
 
-![image](https://user-images.githubusercontent.com/97940851/176418038-15ffb777-77a4-4655-9777-fa2de9d0da32.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176418104-374c887d-050d-45a6-92c1-1341de02ba3f.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176418174-de365094-1245-430f-8e52-0794dc9f70d5.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176418294-f6ba9fe4-8f7e-449e-bb45-c25657b2f1d7.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176418351-7d56cbee-457d-4183-8470-8c1325c98cde.png)
+![image](https://user-images.githubusercontent.com/97940151/178718032-e69f77f4-8d44-44f7-a6a2-654234c06aa4.png)
+![image](https://user-images.githubusercontent.com/97940151/178718210-a328abb6-6c2b-45e2-aa0c-2b60cc55d8d7.png)
+![image](https://user-images.githubusercontent.com/97940151/178718283-77c533f8-ce90-42ad-ad82-1c863c9e103e.png)
+![image](https://user-images.githubusercontent.com/97940151/178718354-d100b415-5363-41c5-b1e0-d7d1f6d23e0e.png)
+![image](https://user-images.githubusercontent.com/97940151/178718423-2ade8460-afee-4b4b-a253-6b566b0b0e77.png)
 
 
 #17.Morphological Operation
