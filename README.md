@@ -253,7 +253,7 @@ cv2.imwrite('output.jpg',fimg4)<br>
 
 
 
-****
+#12. Colorspace?
 import cv2<br>
 img=cv2.imread("dog.jpg")<br>
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)<br>
@@ -270,17 +270,11 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br><br>
 
 **OUTPUT**
-
-![image](https://user-images.githubusercontent.com/97940851/175275459-1038aabc-f2e2-48d4-832e-4818794576d7.png)
-
-![image](https://user-images.githubusercontent.com/97940851/175275565-e98518fb-4310-4ae7-9121-312f769a1789.png)
-
-![image](https://user-images.githubusercontent.com/97940851/175275777-13baace2-7b44-40e2-8fca-601994e1dd4f.png)
-
-![image](https://user-images.githubusercontent.com/97940851/175275902-3fdd3a34-d608-4f77-85c8-f3164238cb19.png)
-
-![image](https://user-images.githubusercontent.com/97940851/175275976-0d96f5e4-beb2-4d92-b5b6-714205902ea2.png)
-
+![image](https://user-images.githubusercontent.com/97940151/178719420-36dca750-88a2-460d-b71f-de421bb36baf.png)
+![image](https://user-images.githubusercontent.com/97940151/178719500-da5cfb95-7e89-4aef-b140-4b338f903d40.png)
+![image](https://user-images.githubusercontent.com/97940151/178719594-89d6f8a9-5a63-41d9-a2ab-434281dd9e41.png)
+![image](https://user-images.githubusercontent.com/97940151/178719671-b40d80dc-a9e6-4784-ba2c-f065f90f22a6.png)
+![image](https://user-images.githubusercontent.com/97940151/178719747-a34268a3-d00d-4e53-ab9a-55f46387b662.png)
 
 
 #13. Program to create an image using
