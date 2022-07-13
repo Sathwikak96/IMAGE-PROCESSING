@@ -293,7 +293,7 @@ c.waitKey(0)<br><br>
 ![image](https://user-images.githubusercontent.com/97940851/175283707-b07903e6-eeae-4838-85e7-bd7f7177f98c.png)
 
 
-#14. Bitwise Operator
+#14. Bitwise Operator<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 image1=cv2.imread('images1.jpg',1)<br>
@@ -321,7 +321,7 @@ cv2.waitKey(0)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178716572-7b20a434-3c8a-4303-94b0-678fc92fa579.png)
 
 
-#15. Blurring Image
+#15. Blurring Image<br>
 
 #importing libraries<br>
 import cv2<br>
