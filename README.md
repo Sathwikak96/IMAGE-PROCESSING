@@ -463,7 +463,7 @@ plt.show()<br>
 <br>
 OUTPUT:<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/178705702-0b28b4e5-661a-49d2-a870-19448304dcfd.png)
+![image](https://user-images.githubusercontent.com/97940151/178707503-52997e04-af9d-4d49-b5b0-013e19633afb.png)
 
 #20. Image without bachground?<br>
 
