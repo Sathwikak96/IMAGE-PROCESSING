@@ -426,10 +426,44 @@ cv2.waitKey(0)<br>
 **OUTPUT**
 
 ![image](https://user-images.githubusercontent.com/97940851/176424583-7f0129f9-fd1a-4e78-b3ef-7bdd20a7e17a.png)
+<br>
+<br>
+#18. Develop the program to 1.read 2.write 3.display the image?<br>
+import cv2<br>
+OriginalImg=cv2.imread('i.jpg')<br>
+GrayImg=cv2.imread('i.jpg',0)<br>
+isSaved=cv2.imwrite('E:/i.jpg',GrayImg)<br>
+cv2.imshow('Display Original Image',OriginalImg)<br>
+cv2.imshow('Display Grayscale Image',GrayImg)<br>
+cv2.waitKey(0)<br>
+cv2.destroyAllWindows()<br>
+if isSaved:<br>
+    print('The image is successfully saved.')<br>
 
-
-
-
+<br>
+<br>
+#19. Slicing with background?<br>
+import cv2<br>
+import numpy as np<br>
+from matplotlib import pyplot as plt<br>
+image=cv2.imread('i.jpg',0)<br>
+x,y=image.shape<br>
+z=np.zeros((x,y))
+for i in range(0,x):<br>
+    for j in range(0,y):<br>
+        if(image[i][j]>50 and image[i][j]<150):<br>
+            z[i][j]=255<br>
+        else:<br>
+            z[i][j]=image[i][j]<br>
+equ=np.hstack((image,z))<br>
+plt.title('Graylevel slicing with background')<br>
+plt.imshow(equ,'gray')<br>
+plt.show()<br>
+<br>
+<br>
+OUTPUT:<br>
+<br>
+![image](https://user-images.githubusercontent.com/97940151/178705702-0b28b4e5-661a-49d2-a870-19448304dcfd.png)
 
 
 
