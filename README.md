@@ -417,10 +417,10 @@ plt.imshow(dilation)<br>
 plt.subplot(155)<br>
 plt.imshow(gradient)<br>
 cv2.waitKey(0)<br>
+OUTPUT:<br>
+![image](https://user-images.githubusercontent.com/97940151/178718749-996313ad-3845-4f3d-9cb5-fb4ccbc68567.png)
 
-**OUTPUT**
 
-![image](https://user-images.githubusercontent.com/97940851/176424583-7f0129f9-fd1a-4e78-b3ef-7bdd20a7e17a.png)
 <br>
 <br>
 #18. Develop the program to 1.read 2.write 3.display the image?<br>
