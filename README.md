@@ -351,17 +351,16 @@ cv2.destroyAllWindows()<br>
 
 **OUTPUT**
 
-![image](https://user-images.githubusercontent.com/97940851/176413343-d96aca82-6cf8-4db3-9b18-03ff4761fbb5.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176413421-57c3c874-ba57-4362-ab42-f4ea3b23339a.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176413499-f6c02fcd-98d0-481a-be6d-b9a4f0dab7d0.png)
-
-![image](https://user-images.githubusercontent.com/97940851/176413558-645ccdeb-054a-4ae3-8b9d-581ece3760dd.png)
+![image](https://user-images.githubusercontent.com/97940151/178716959-0bb3e850-a70e-4fe9-b1f6-1012c7d5b5c0.png)
+![image](https://user-images.githubusercontent.com/97940151/178717094-f8a9952d-ccf2-4915-833d-3a5edb4a5ee1.png)
+![image](https://user-images.githubusercontent.com/97940151/178717229-c0361aa8-5a84-4966-a8a2-7a603500dbe5.png)
+![image](https://user-images.githubusercontent.com/97940151/178717319-4bcafd27-5dfb-4c75-93b5-6d5d5bed7e53.png)
+<br>
 
 
 
-#16.Image Enhancement
+
+#16.Image Enhancement<br>
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
