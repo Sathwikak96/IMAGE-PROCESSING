@@ -324,7 +324,7 @@ cv2.waitKey(0)<br>
 
 **OUTPUT**
 
-![image](https://user-images.githubusercontent.com/97940851/176408534-33a0ecb4-97a0-4532-bf63-8a862d95fc5f.png)
+![image](https://user-images.githubusercontent.com/97940151/178716572-7b20a434-3c8a-4303-94b0-678fc92fa579.png)
 
 
 #15. Blurring Image
