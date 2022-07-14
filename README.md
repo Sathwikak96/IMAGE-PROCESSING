@@ -345,14 +345,10 @@ cv2.destroyAllWindows()<br>
 
 **OUTPUT**
 
-![image](https://user-images.githubusercontent.com/97940151/178716959-0bb3e850-a70e-4fe9-b1f6-1012c7d5b5c0.png)
-![image](https://user-images.githubusercontent.com/97940151/178717094-f8a9952d-ccf2-4915-833d-3a5edb4a5ee1.png)
-![image](https://user-images.githubusercontent.com/97940151/178717229-c0361aa8-5a84-4966-a8a2-7a603500dbe5.png)
-![image](https://user-images.githubusercontent.com/97940151/178717319-4bcafd27-5dfb-4c75-93b5-6d5d5bed7e53.png)
-<br>
-
-
-
+![image](https://user-images.githubusercontent.com/97940151/178968682-ef4d317c-df76-4107-a8ee-91f72acddc6f.png)
+![image](https://user-images.githubusercontent.com/97940151/178969106-69457483-6e75-42e6-a082-0b07d6bc5cff.png)
+![image](https://user-images.githubusercontent.com/97940151/178969211-c56e57db-a216-4653-8a81-7a7d1b2d3732.png)
+![image](https://user-images.githubusercontent.com/97940151/178969294-165f3437-5c75-4988-8d87-20fc949862de.png)
 
 # 16.Image Enhancement<br>
 
