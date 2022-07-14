@@ -475,11 +475,45 @@ plt.imshow(equ,'gray')<br>
 plt.show()<br>
 OUTPUT:<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/178707239-8ee25570-0cc2-44fc-aa1e-0a080d19e05c.png)
+![image](https://user-images.githubusercontent.com/97940151/178707239-8ee25570-0cc2-44fc-aa1e-0a080d19e05c.png)<br>
 
 
+#21. histogram?<br>
+import numpy as np<br>
+import skimage.color<br>
+import skimage.io<br>
+import matplotlib.pyplot as plt<br>
+#matplotlib widget<br>
 
+# read the image of a plant seedling as grayscale from the outset<br>
+image = skimage.io.imread(fname="img3.jpg", as_gray=True)<br>
+image1 = skimage.io.imread(fname="img3.jpg")<br>
+# display the image<br>
+fig, ax = plt.subplots()<br>
+plt.imshow(image, cmap="gray")<br>
+plt.show()<br>
 
+# display the image<br>
+fig, ax = plt.subplots()<br>
+plt.imshow(image1, cmap="gray")<br>
+plt.show()<br>
+
+# create the histogram<br>
+histogram, bin_edges = np.histogram(image, bins=256, range=(0, 1))<br>
+
+# configure and draw the histogram figure<br>
+plt.figure()<br>
+plt.title("Grayscale Histogram")<br>
+plt.xlabel("grayscale value")<br>
+plt.ylabel("pixel count")<br>
+plt.xlim([0.0, 1.0])  # <- named arguments do not work here<br>
+
+plt.plot(bin_edges[0:-1], histogram)  # <- or here<br>
+plt.show()<br>
+
+![image](https://user-images.githubusercontent.com/97940151/178963447-d34d640f-6a57-44e8-a083-0f0b9292fcf5.png)
+![image](https://user-images.githubusercontent.com/97940151/178963522-d9288839-8cd9-410e-972b-f8cb9b2b4daf.png)
+![image](https://user-images.githubusercontent.com/97940151/178963608-093033d6-0d51-4d14-8720-4b2300381c33.png)
 
 
 
