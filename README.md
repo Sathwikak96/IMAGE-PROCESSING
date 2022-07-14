@@ -253,7 +253,7 @@ cv2.imwrite('output.jpg',fimg4)<br>
 
 
 
-#12. Colorspace?
+# 12. Colorspace?
 import cv2<br>
 img=cv2.imread("dog.jpg")<br>
 gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)<br>
@@ -277,7 +277,7 @@ cv2.destroyAllWindows()<br><br>
 ![image](https://user-images.githubusercontent.com/97940151/178719747-a34268a3-d00d-4e53-ab9a-55f46387b662.png)
 
 
-#13. Program to create an image using
+# 13. Program to create an image using
 import numpy as np<br>
 from PIL import Image<br>
 array=np.zeros([100,200,3],dtype=np.uint8)<br>
@@ -293,7 +293,7 @@ c.waitKey(0)<br><br>
 ![image](https://user-images.githubusercontent.com/97940851/175283707-b07903e6-eeae-4838-85e7-bd7f7177f98c.png)
 
 
-#14. Bitwise Operator<br>
+# 14. Bitwise Operator<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 image1=cv2.imread('images1.jpg',1)<br>
@@ -321,7 +321,7 @@ cv2.waitKey(0)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178716572-7b20a434-3c8a-4303-94b0-678fc92fa579.png)
 
 
-#15. Blurring Image<br>
+# 15. Blurring Image<br>
 
 #importing libraries<br>
 import cv2<br>
@@ -354,7 +354,7 @@ cv2.destroyAllWindows()<br>
 
 
 
-#16.Image Enhancement<br>
+# 16.Image Enhancement<br>
 
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -386,7 +386,7 @@ image_sharped.show()<br>
 ![image](https://user-images.githubusercontent.com/97940151/178718423-2ade8460-afee-4b4b-a253-6b566b0b0e77.png)
 
 
-#17.Morphological Operation
+# 17.Morphological Operation
 
 import cv2<br>
 import numpy as np<br>
@@ -417,7 +417,7 @@ OUTPUT:<br>
 
 <br>
 <br>
-#18. Develop the program to 1.read 2.write 3.display the image?<br>
+# 18. Develop the program to 1.read 2.write 3.display the image?<br>
 import cv2<br>
 OriginalImg=cv2.imread('i.jpg')<br>
 GrayImg=cv2.imread('i.jpg',0)<br>
@@ -431,7 +431,7 @@ if isSaved:<br>
 
 <br>
 <br>
-#19. Slicing with background?<br>
+# 19. Slicing with background?<br>
 import cv2<br>
 import numpy as np<br>
 from matplotlib import pyplot as plt<br>
@@ -455,7 +455,7 @@ OUTPUT:<br>
 
 
 
-#20. Image without bachground?<br>
+# 20. Image without bachground?<br>
 
 import cv2<br>
 import numpy as np<br>
@@ -478,30 +478,30 @@ OUTPUT:<br>
 ![image](https://user-images.githubusercontent.com/97940151/178707239-8ee25570-0cc2-44fc-aa1e-0a080d19e05c.png)<br>
 
 
-#21. histogram?<br>
+# 21. histogram?<br>
 import numpy as np<br>
 import skimage.color<br>
 import skimage.io<br>
 import matplotlib.pyplot as plt<br>
 #matplotlib widget<br>
 
-# read the image of a plant seedling as grayscale from the outset<br>
+#read the image of a plant seedling as grayscale from the outset<br>
 image = skimage.io.imread(fname="img3.jpg", as_gray=True)<br>
 image1 = skimage.io.imread(fname="img3.jpg")<br>
-# display the image<br>
+#display the image<br>
 fig, ax = plt.subplots()<br>
 plt.imshow(image, cmap="gray")<br>
 plt.show()<br>
 
-# display the image<br>
+#display the image<br>
 fig, ax = plt.subplots()<br>
 plt.imshow(image1, cmap="gray")<br>
 plt.show()<br>
 
-# create the histogram<br>
+#create the histogram<br>
 histogram, bin_edges = np.histogram(image, bins=256, range=(0, 1))<br>
 
-# configure and draw the histogram figure<br>
+#configure and draw the histogram figure<br>
 plt.figure()<br>
 plt.title("Grayscale Histogram")<br>
 plt.xlabel("grayscale value")<br>
