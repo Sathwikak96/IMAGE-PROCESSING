@@ -515,7 +515,8 @@ plt.show()<br>
   a.Image negative<br>
   b. Log transformation<br>
   c.Gamma correction<br>
-a. import imageio<br>
+# a. <br>
+   import imageio<br>
    import matplotlib.pyplot as plt<br>
    import warnings<br>
    import matplotlib.cbook<br>
@@ -535,7 +536,8 @@ OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/179963159-6f6da6b6-2be8-40d4-b037-58a510d6cde5.png)<br>
 
 
-b.  import imageio<br>
+# b. <br>
+    import imageio<br>
     import numpy as np<br>
     import matplotlib.pyplot as plt<br>
 
@@ -555,7 +557,8 @@ b.  import imageio<br>
   ![image](https://user-images.githubusercontent.com/97940151/179963780-9a1a1619-def0-4cf8-98d3-3a3032762ffc.png)<br>
 
   
-c. import imageio<br>
+# c.<br> 
+   import imageio<br>
    import matplotlib.pyplot as plt<br>
 
   pic=imageio.imread('img3.jpg')<br>
