@@ -573,7 +573,7 @@ OUTPUT:-<br>
   
 ![image](https://user-images.githubusercontent.com/97940151/179963905-6e9bda49-e5de-4957-b40b-d85332569be9.png)<br><br>
 
-# 24. Program to perform image manipulation?<br>
+# 23. Program to perform image manipulation?<br>
 a. Sharpness<br>
 b. flipping<br>
 c. Cropping<br>
