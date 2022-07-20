@@ -69,7 +69,7 @@ OUTPUT:-<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 import numpy as np<br>
-img=cv2.imread('F1.jfif')<br>
+img=cv2.imread('c1.jpg')<br>
 plt.imshow(img)<br>
 plt.show()<br>
 img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)<br>
@@ -81,8 +81,10 @@ plt.show()<br>
 <br>
 OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174044873-31e49b84-bced-4a2f-b705-9ec5a36332e1.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/174048463-920d342c-a558-4a75-b35d-22bc46358095.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/179970122-ee39d298-9289-4cbb-b3d0-7bc1b1e8eb89.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/179970205-be5323c5-c4c6-4469-9834-86d28d4575c8.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/179970287-1a369ef1-e899-4cb7-82c8-57bb125d68d1.png)<br>
+
 <br>
 <br>
 <br>
