@@ -101,8 +101,8 @@ image.close()<br>
 <br>
 OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174045745-6264bf37-0373-48de-8677-0da4a745b40c.png)<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940151/179970945-f8a42aa5-3fec-489b-ba62-10295d6bfc04.png)<br>
+
 <br>
 <br>
 # 8. Convert the original image to gray scale and then to binary?<br>
