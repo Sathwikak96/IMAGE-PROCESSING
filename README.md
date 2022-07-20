@@ -101,7 +101,12 @@ image.close()<br>
 <br>
 OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/179971153-48edc7c7-65e3-4da5-b8f8-9a4b040b11c4.png)
+Filename: p1.jpg<br>
+Format: JPEG<br>
+Mode: RGB<br>
+Size: (225, 225)<br>
+Width: 225<br>
+Height: 225<br>
 <br>
 <br>
 # 8. Convert the original image to gray scale and then to binary?<br>
