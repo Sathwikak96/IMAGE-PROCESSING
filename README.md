@@ -568,59 +568,59 @@ c. import imageio<br>
   
   OUTPUT:-<br>
   
-![image](https://user-images.githubusercontent.com/97940151/179963905-6e9bda49-e5de-4957-b40b-d85332569be9.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/179963905-6e9bda49-e5de-4957-b40b-d85332569be9.png)<br><br>
 
-# 24. Program to perform image manipulation?
-a. Sharpness
-b. flipping
-c. Cropping
+# 24. Program to perform image manipulation?<br>
+a. Sharpness<br>
+b. flipping<br>
+c. Cropping<br>
 
-# a. 
-from PIL import Image
-from PIL import ImageFilter
-import matplotlib.pyplot as plt
+# a. <br>
+from PIL import Image<br>
+from PIL import ImageFilter<br>
+import matplotlib.pyplot as plt<br>
 
-my_image=Image.open('t1.jpg')
+my_image=Image.open('t1.jpg')<br>
 
-sharp=my_image.filter(ImageFilter.SHARPEN)
+sharp=my_image.filter(ImageFilter.SHARPEN)<br>
 
-sharp.save('E:/image_sharpen.jpg')
-sharp.show()
-plt.imshow(sharp)
-plt.show()
-OUTPUT:-
+sharp.save('E:/image_sharpen.jpg')<br>
+sharp.show()<br>
+plt.imshow(sharp)<br><br>
+plt.show()<br>
+OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/179965900-4cb4522a-e238-4db0-a573-2537282775b3.png)<br>
 
-# b.
-import matplotlib.pyplot as plt
+# b.<br>
+import matplotlib.pyplot as plt<br>
 
-img=Image.open('t1.jpg')
-plt.imshow(img)
-plt.show()
+img=Image.open('t1.jpg')<br>
+plt.imshow(img)<br>
+plt.show()<br>
 
-flip=img.transpose(Image.FLIP_LEFT_RIGHT)
+flip=img.transpose(Image.FLIP_LEFT_RIGHT)<br>
 
-flip.save('E:/image_flip.jpg')
-plt.imshow(flip)
-plt.show()
-OUTPUT:-
+flip.save('E:/image_flip.jpg')<br>
+plt.imshow(flip)<br>
+plt.show()<br><br>
+OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966024-7aa62a81-3816-4939-b7b5-fd170e83dc3a.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966091-357e4b10-1c3d-4607-820c-21b410c4c55a.png)<br>
 
-# c.
-from PIL import Image
-import matplotlib.pyplot as plt
+# c.<br>
+from PIL import Image<br>
+import matplotlib.pyplot as plt<br>
 
-im=Image.open('t1.jpg')
+im=Image.open('t1.jpg')<br>
 
-width,height=im.size
+width,height=im.size<br>
 
-im1=im.crop((50,25,175,200))
+im1=im.crop((50,25,175,200))<br>
 
-im1.show()
-plt.imshow(im1)
-plt.show()
-OUTPUT:-
+im1.show()<br>
+plt.imshow(im1)<br>
+plt.show()<br>
+OUTPUT:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966254-6f526475-ddfe-46e3-a9f6-832df99ce58c.png)<br>
 
 
