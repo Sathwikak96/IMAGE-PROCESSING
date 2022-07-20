@@ -570,8 +570,58 @@ c. import imageio<br>
   
 ![image](https://user-images.githubusercontent.com/97940151/179963905-6e9bda49-e5de-4957-b40b-d85332569be9.png)<br>
 
+# 24. Program to perform image manipulation?
+a. Sharpness
+b. flipping
+c. Cropping
 
+# a. 
+from PIL import Image
+from PIL import ImageFilter
+import matplotlib.pyplot as plt
 
+my_image=Image.open('t1.jpg')
+
+sharp=my_image.filter(ImageFilter.SHARPEN)
+
+sharp.save('E:/image_sharpen.jpg')
+sharp.show()
+plt.imshow(sharp)
+plt.show()
+OUTPUT:-
+![image](https://user-images.githubusercontent.com/97940151/179965900-4cb4522a-e238-4db0-a573-2537282775b3.png)<br>
+
+# b.
+import matplotlib.pyplot as plt
+
+img=Image.open('t1.jpg')
+plt.imshow(img)
+plt.show()
+
+flip=img.transpose(Image.FLIP_LEFT_RIGHT)
+
+flip.save('E:/image_flip.jpg')
+plt.imshow(flip)
+plt.show()
+OUTPUT:-
+![image](https://user-images.githubusercontent.com/97940151/179966024-7aa62a81-3816-4939-b7b5-fd170e83dc3a.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/179966091-357e4b10-1c3d-4607-820c-21b410c4c55a.png)<br>
+
+# c.
+from PIL import Image
+import matplotlib.pyplot as plt
+
+im=Image.open('t1.jpg')
+
+width,height=im.size
+
+im1=im.crop((50,25,175,200))
+
+im1.show()
+plt.imshow(im1)
+plt.show()
+OUTPUT:-
+![image](https://user-images.githubusercontent.com/97940151/179966254-6f526475-ddfe-46e3-a9f6-832df99ce58c.png)<br>
 
 
 
