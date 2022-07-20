@@ -90,7 +90,7 @@ OUTPUT:-<br>
 <br>
 # 7. Develop a program to display the image attributes?<br>
 from PIL import Image<br>
-image=Image.open('F1.jfif')<br>
+image=Image.open('p1.jpg')<br>
 print("Filename:",image.filename)<br>
 print("Format:",image.format)<br>
 print("Mode:",image.mode)<br>
@@ -101,8 +101,7 @@ image.close()<br>
 <br>
 OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/179970945-f8a42aa5-3fec-489b-ba62-10295d6bfc04.png)<br>
-
+![image](https://user-images.githubusercontent.com/97940151/179971153-48edc7c7-65e3-4da5-b8f8-9a4b040b11c4.png)
 <br>
 <br>
 # 8. Convert the original image to gray scale and then to binary?<br>
