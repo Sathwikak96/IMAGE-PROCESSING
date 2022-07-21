@@ -385,7 +385,10 @@ cv2.destroyAllWindows()<br>
 if isSaved:<br>
     print('The image is successfully saved.')<br>
 <br>
- **20.Write a program to Slicing the image with background?**<br>
+**OUTPUT:-**<br>
+![image](https://user-images.githubusercontent.com/97940151/180195224-0e99e2bf-c680-4574-9df5-b6857bf62de4.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180195592-ff4db8c6-c431-4f54-9277-79afb4354831.png)<br>
+**20.Write a program to Slicing the image with background?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
