@@ -8,10 +8,7 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
 # OUTPUT:-<br>
-![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)
-<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)<br>
 # 2. Develop a program to display the image using matplotlib?<br>
 <br>
 import matplotlib.image as mping<br>
@@ -20,10 +17,7 @@ img=mping.imread('F1.jfif')<br>
 plt.imshow(img)<br>
 <br>
 # OUTPUT:-<br>
-![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)
-<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)<br>
 # 3. Develop a program to perform a linear transformation using rotation?<br>
 <br>
 import cv2<br>
@@ -35,11 +29,7 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
 # OUTPUT:-<br>
-<br>
-![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)
-<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)<br>
 # 4. Develop a program to convert color tree to RCB color values?<br>
 <br>
 from PIL import ImageColor<br>
