@@ -8,7 +8,6 @@ cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
 # OUTPUT:-<br>
-<br>
 ![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)
 <br>
 <br>
@@ -21,7 +20,6 @@ img=mping.imread('F1.jfif')<br>
 plt.imshow(img)<br>
 <br>
 # OUTPUT:-<br>
-<br>
 ![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)
 <br>
 <br>
