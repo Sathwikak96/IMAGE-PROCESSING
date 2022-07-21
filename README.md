@@ -9,7 +9,7 @@ cv2.destroyAllWindows()<br>
 <br>
 **OUTPUT**:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)<br>
-2. Develop a program to display the image using matplotlib?<br>
+**2. Develop a program to display the image using matplotlib?** <br>
 <br>
 import matplotlib.image as mping<br>
 import matplotlib.pyplot as plt<br>
@@ -253,7 +253,7 @@ cv2.imwrite('output.jpg',fimg4)<br>
  <br>
  <br>
  <bR>
-**12.Colour space?**<br>
+**13.Develop the program to changeb the image to different Colour space?**<br>
  <br>
 import cv2<br>
 img=cv2.imread("dog.jpg")<br>
@@ -280,7 +280,7 @@ cv2.destroyAllWindows()<br>
 <br>
 <br>
 <br>
-**13. Program to create an image using**<br>
+**14. Program to create an image using 2D array?**<br>
 <br>
 import numpy as np<br>
 from PIL import Image<br>
@@ -296,7 +296,8 @@ c.waitKey(0)<br>
 ![image](https://user-images.githubusercontent.com/97940851/175283707-b07903e6-eeae-4838-85e7-bd7f7177f98c.png)<br>
   <br>
   <br>
-  <br>  
+  <br> 
+**15. Write a program to perform the bitwise operation?**
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 image1=cv2.imread('images1.jpg',1)<br>
@@ -324,7 +325,7 @@ cv2.waitKey(0)<br>
 <br>
 <br>
 <br>
-**15. Blurring Image**<br>
+**16. Develop an image usingn Blurring method?**<br>
 <br>
 #importing libraries<br>
 import cv2<br>
@@ -354,7 +355,7 @@ cv2.destroyAllWindows()<br>
   <br>
   <br>
   <br>
-**16.Image Enhancement**<br>
+**17. Write a program to perform Image Enhancement?**<br>
   <br>
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -385,7 +386,7 @@ image_sharped.show()<br>
   <br>
   <br>
   <br>
-**17.Morphological Operation**<br>
+**18.Write a program to perform Morphological Operation?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -416,7 +417,7 @@ cv2.waitKey(0)<br>
 <br>
 <br>
 <br>
-**18. Develop the program to 1.read 2.write 3.display the image?**<br>
+**19. Develop the program to 1.read 2.write 3.display the image?**<br>
   <br>
 import cv2<br>
 OriginalImg=cv2.imread('i.jpg')<br>
@@ -431,7 +432,7 @@ if isSaved:<br>
 <br>
 <br>
 <br>
- **19. Slicing with background?**<br>
+ **20.Write a program to Slicing the image with background?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -457,7 +458,7 @@ plt.show()<br>
   <br>
   <br>
   <br>
-**20. Image without bachground?**<br>
+**21. Write a program to slicing the Image without bachground?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -481,7 +482,8 @@ plt.show()<br>
   <br>
   <br>
   <br>
-**21. histogram?**<br>
+**histogram?**<br>
+ **_________________**<br>
   <br>
 import numpy as np<br>
 import skimage.color<br>
@@ -520,7 +522,7 @@ plt.show()<br>
 **22. Program to perform basic image data analysis using intensity transformation?**<br>
   <br>
   a.Image negative<br>
-  b. Log transformation<br>
+  b.Log transformation<br>
   c.Gamma correction<br>
 # a. <br>
    import imageio<br>
