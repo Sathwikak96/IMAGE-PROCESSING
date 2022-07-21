@@ -121,15 +121,10 @@ ret,bw_img=cv2.threshold(img,127,255,cv2.THRESH_BINARY)<br>
 cv2.imshow("Binary",bw_img)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
-<br>
 OUTPUT:-<br>
-<br>
-![image](https://user-images.githubusercontent.com/97940151/174049483-f5d7ce12-36b2-44df-8596-8a1ed25cafe7.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/174049629-845c7b1a-c884-4987-aaa6-6d83dbf7b8b6.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/174049816-3e6b0c76-03ba-4a7f-86ed-e9cb35c1c89c.png)<br>
-<br>
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/97940151/180175552-8e6759f6-8733-487a-93ef-f50c906e72ce.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180175697-ee52fe3b-55bb-47cd-a604-37d136e01002.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180176131-4b92090b-28d7-4fd1-8627-e29950d8b3e7.png)<br>
 # 9. Resize the original image?<br>
 import cv2<br>
 img=cv2.imread('F1.jfif')<br>
