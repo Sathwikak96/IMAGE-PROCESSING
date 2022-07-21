@@ -122,9 +122,10 @@ print('Resized image length width',imgresize.shape)<br>
 cv2.waitKey(0)<br>
 <br>
 **OUTPUT:-**<br>
-original image length width (181, 278, 3) Resized image length width (160, 150, 3) -1<br>
-![image](https://user-images.githubusercontent.com/97940151/178219499-b7d4ba70-830a-4d33-bb4a-25f78e0e9b1e.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/178219546-85693bc0-2448-4c6a-a2c5-7ed1868b1a50.png)<br>
+original image length width (168, 299, 3)<br>
+Resized image length width (160, 150, 3)<br>
+![image](https://user-images.githubusercontent.com/97940151/180202210-ebea768e-299d-4a01-958b-8c4a52f1cfa7.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180202312-c5d32b2b-55bd-4aa8-adf7-8ccd20940988.png)<br>
  **10. Develop a program to read image using URL ?**<br>
  <br>
  url from skimage import io<br>
