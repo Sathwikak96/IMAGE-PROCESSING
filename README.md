@@ -9,7 +9,7 @@ cv2.destroyAllWindows()<br>
 <br>
 # OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)
 <br>
 <br>
 <br>
@@ -22,7 +22,7 @@ plt.imshow(img)<br>
 <br>
 # OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)
 <br>
 <br>
 <br>
@@ -38,7 +38,7 @@ cv2.destroyAllWindows()<br>
 <br>
 # OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)
 <br>
 <br>
 <br>
@@ -54,7 +54,7 @@ print(img3)<br>
 <br>
 # OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174041325-6755a879-4216-49e7-ae20-13a5c31b9320.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/174041325-6755a879-4216-49e7-ae20-13a5c31b9320.png)
 <br>
 <br>
 <br>
@@ -66,7 +66,7 @@ img.show()<br>
 <br>
 # OUTPUT:-<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940151/174042123-12f038b4-ff4f-4e51-8af6-d2f0690fccb3.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/174042123-12f038b4-ff4f-4e51-8af6-d2f0690fccb3.png)
 <br>
 <br>
 <br>
