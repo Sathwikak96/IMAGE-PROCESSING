@@ -297,7 +297,7 @@ c.waitKey(0)<br>
   <br>
   <br>
   <br> 
-**15. Write a program to perform the bitwise operation?**
+**15. Write a program to perform the bitwise operation?**<br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
 image1=cv2.imread('images1.jpg',1)<br>
