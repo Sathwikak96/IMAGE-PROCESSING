@@ -222,10 +222,10 @@ plt.show()<br>
 cv2.imwrite('output.jpg',fimg4)<br>
 **OUTPUT:-**<br>
  <br>
-![image](https://user-images.githubusercontent.com/97940851/175271361-f69fd056-0c9f-48de-9f0e-58f179e3165a.png)<br>
-![image](https://user-images.githubusercontent.com/97940851/175271547-755682e2-fb06-415c-becb-c9dfc61547b8.png)<br>
-![image](https://user-images.githubusercontent.com/97940851/175271715-3e037c18-5be8-4457-9ce2-2f77386b4f49.png)<br>
-![image](https://user-images.githubusercontent.com/97940851/175272011-17225891-481f-445d-b47e-1fb7804c5997.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180200678-85e7c451-385e-4ffb-b6ac-67470155ff0f.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180200746-f01a5689-587e-4b34-ac4a-4b9935287029.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180200816-8d61c20b-4529-4cef-a2fe-0e079ebf1e91.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/180200883-ec735242-c664-4d90-8ee2-f3d0f128af81.png)<br>
 **13.Develop the program to changeb the image to different Colour space?**<br>
  <br>
 import cv2<br>
