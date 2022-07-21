@@ -16,9 +16,9 @@ import matplotlib.pyplot as plt<br>
 img=mping.imread('F1.jfif')<br>
 plt.imshow(img)<br>
 <br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)<br>
-3. Develop a program to perform a linear transformation using rotation?<br>
+**3. Develop a program to perform a linear transformation using rotation?**<br>
 <br>
 import cv2<br>
 from PIL import Image<br>
@@ -28,9 +28,9 @@ img.show()<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)<br>
-# 4. Develop a program to convert color tree to RCB color values?<br>
+**4. Develop a program to convert color tree to RCB color values?**<br>
 <br>
 from PIL import ImageColor<br>
 img1=ImageColor.getrgb("yellow")<br>
@@ -40,25 +40,25 @@ print(img2)<br>
 img3=ImageColor.getrgb("pink")<br>
 print(img3)<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174041325-6755a879-4216-49e7-ae20-13a5c31b9320.png)
 <br>
 <br>
 <br>
-# 5.Write a program to create using a color?<br>
+**5.Write a program to create using a color?**<br>
 <br>
 from PIL import Image<br>
 img=Image.new('RGB',(200,400),(255,0,0))<br>
 img.show()<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174042123-12f038b4-ff4f-4e51-8af6-d2f0690fccb3.png)
 <br>
 <br>
 <br>
-# 6. Develop a program to visualize the image using various color spaces?<br>
+**6. Develop a program to visualize the image using various color spaces?**<br>
 <br>
 import cv2<br>
 import matplotlib.pyplot as plt<br>
@@ -73,7 +73,7 @@ img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)<br>
 plt.imshow(img)<br>
 plt.show()<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/179970122-ee39d298-9289-4cbb-b3d0-7bc1b1e8eb89.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/179970205-be5323c5-c4c6-4469-9834-86d28d4575c8.png)<br>
@@ -81,7 +81,7 @@ plt.show()<br>
 <br>
 <br>
 <br>
-# 7. Develop a program to display the image attributes?<br>
+**7. Develop a program to display the image attributes?**<br>
 <br>
 from PIL import Image<br>
 image=Image.open('p1.jpg')<br>
@@ -93,7 +93,7 @@ print("Width:",image.width)<br>
 print("Height:",image.height)<br>
 image.close()<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 <br>
 Filename: p1.jpg<br>
 Format: JPEG<br>
@@ -104,7 +104,7 @@ Height: 225<br>
 <br>
 <br>
 <br>
-# 8. Convert the original image to gray scale and then to binary?<br>
+**8. Convert the original image to gray scale and then to binary?**<br>
 <br>
 import cv2<br>
 img=cv2.imread('F1.jfif')<br>
@@ -117,14 +117,14 @@ ret,bw_img=cv2.threshold(img,127,255,cv2.THRESH_BINARY)<br>
 cv2.imshow("Binary",bw_img)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/180175552-8e6759f6-8733-487a-93ef-f50c906e72ce.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180175697-ee52fe3b-55bb-47cd-a604-37d136e01002.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180176131-4b92090b-28d7-4fd1-8627-e29950d8b3e7.png)<br>
 <br>
 <br>
 <br>
-# 9. Resize the original image?<br>
+**9. Resize the original image?**<br>
 <br>
 import cv2<br>
 img=cv2.imread('F1.jfif')<br>
@@ -136,14 +136,14 @@ cv2.imshow('Resized image',imgresize)<br>
 print('Resized image length width',imgresize.shape)<br>
 cv2.waitKey(0)<br>
 <br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
 original image length width (181, 278, 3) Resized image length width (160, 150, 3) -1<br>
 ![image](https://user-images.githubusercontent.com/97940151/178219499-b7d4ba70-830a-4d33-bb4a-25f78e0e9b1e.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178219546-85693bc0-2448-4c6a-a2c5-7ed1868b1a50.png)<br>
 <br>
 <br>
 <br>
- # 10. Develop a program to read image using URL ?<br>
+ **10. Develop a program to read image using URL ?**<br>
  <br>
  url from skimage import io<br>
  import matplotlib.pyplot as plt<br>
@@ -151,13 +151,13 @@ original image length width (181, 278, 3) Resized image length width (160, 150, 
  image=io.imread(url)<br>
  plt.imshow(image)<br>
  plt.show()<br>
- OUTPUT:-<br>
+ **OUTPUT:-**<br>
  <br>
 ![image](https://user-images.githubusercontent.com/97940151/178225320-9bd09b8c-73a2-4b6e-8e93-744847b3d237.png)<br>
 <br>
 <br>
 <br>
-# 11. Write a program to mask and blur the image?<br>
+**11. Write a program to mask and blur the image?**<br>
 <br>
 import cv2<br>
 import matplotlib.image as mpimg<br>
@@ -211,7 +211,7 @@ blur=cv2.GaussianBlur(final_result,(7,7),0)<br>
 plt.imshow(blur)<br>
 plt.show()<br>
 <br>
-![image](https://user-images.githubusercontent.com/97940851/175257079-4bb9e433-07be-4e17-a7df-43fbac0010f6.png)<bR>
+![image](https://user-images.githubusercontent.com/97940851/175257079-4bb9e433-07be-4e17-a7df-43fbac0010f6.png)<br>
 <br>
 <br>
 <br>
@@ -244,7 +244,7 @@ plt.imshow(fimg4)<br>
 plt.show()<br>
 #saving<br>
 cv2.imwrite('output.jpg',fimg4)<br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
  <br>
 ![image](https://user-images.githubusercontent.com/97940851/175271361-f69fd056-0c9f-48de-9f0e-58f179e3165a.png)<br>
 ![image](https://user-images.githubusercontent.com/97940851/175271547-755682e2-fb06-415c-becb-c9dfc61547b8.png)<br>
@@ -253,7 +253,7 @@ cv2.imwrite('output.jpg',fimg4)<br>
  <br>
  <br>
  <bR>
-# 12. Colorspace?<br>
+**12.Colour space?**<br>
  <br>
 import cv2<br>
 img=cv2.imread("dog.jpg")<br>
@@ -280,7 +280,7 @@ cv2.destroyAllWindows()<br>
 <br>
 <br>
 <br>
-# 13. Program to create an image using<br>
+**13. Program to create an image using**<br>
 <br>
 import numpy as np<br>
 from PIL import Image<br>
@@ -291,7 +291,7 @@ img=Image.fromarray(array)<br>
 img.save('IMAGES.jpg')<br>
 img.show()<br>
 c.waitKey(0)<br>
-**output**<br>
+**OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940851/175283707-b07903e6-eeae-4838-85e7-bd7f7177f98c.png)<br>
   <br>
@@ -318,13 +318,13 @@ plt.imshow(bitwiseNot_img1)<br>
 plt.subplot(155)<br>
 plt.imshow(bitwiseNot_img2<br>
 cv2.waitKey(0)<br>
-# OUTPUT:-<br>
+**OUTPUT:-**<br>
  <br> 
 ![image](https://user-images.githubusercontent.com/97940151/178968291-6cd6b51a-e213-4ddb-b9a5-b98ccbb97d8d.png)<br>
 <br>
 <br>
 <br>
-# 15. Blurring Image<br>
+**15. Blurring Image**<br>
 <br>
 #importing libraries<br>
 import cv2<br>
@@ -345,7 +345,7 @@ bilateral=cv2.bilateralFilter(image,9,75,75)<br>
 cv2.imshow('Bilateral Blurring',bilateral)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
   <br>
 ![image](https://user-images.githubusercontent.com/97940151/178968682-ef4d317c-df76-4107-a8ee-91f72acddc6f.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178969106-69457483-6e75-42e6-a082-0b07d6bc5cff.png)<br>
@@ -354,7 +354,7 @@ OUTPUT:-<br>
   <br>
   <br>
   <br>
-# 16.Image Enhancement<br>
+**16.Image Enhancement**<br>
   <br>
 from PIL import Image<br>
 from PIL import ImageEnhance<br>
@@ -376,7 +376,7 @@ enh_sha=ImageEnhance.Sharpness(image)<br>
 sharpness=3.0<br>
 image_sharped=enh_sha.enhance(sharpness)<br>
 image_sharped.show()<br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
   <br>
 ![image](https://user-images.githubusercontent.com/97940151/178718032-e69f77f4-8d44-44f7-a6a2-654234c06aa4.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178718283-77c533f8-ce90-42ad-ad82-1c863c9e103e.png)<br>
@@ -385,7 +385,7 @@ OUTPUT:-<br>
   <br>
   <br>
   <br>
-# 17.Morphological Operation<br>
+**17.Morphological Operation**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -410,13 +410,13 @@ plt.imshow(dilation)<br>
 plt.subplot(155)<br>
 plt.imshow(gradient)<br>
 cv2.waitKey(0)<br>
-# OUTPUT:<br>
+**OUTPUT:-**<br>
   <br>
 ![image](https://user-images.githubusercontent.com/97940151/178718749-996313ad-3845-4f3d-9cb5-fb4ccbc68567.png)<br>
 <br>
 <br>
 <br>
-# 18. Develop the program to 1.read 2.write 3.display the image?<br>
+**18. Develop the program to 1.read 2.write 3.display the image?**<br>
   <br>
 import cv2<br>
 OriginalImg=cv2.imread('i.jpg')<br>
@@ -431,7 +431,7 @@ if isSaved:<br>
 <br>
 <br>
 <br>
-# 19. Slicing with background?<br>
+ **19. Slicing with background?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -451,13 +451,13 @@ plt.imshow(equ,'gray')<br>
 plt.show()<br>
 <br>
 <br>
-# OUTPUT:<br>
+**OUTPUT:-**<br>
   <br>
 ![image](https://user-images.githubusercontent.com/97940151/178708133-67df44c4-f8b9-4878-b801-76f3dedb0de5.png)<br>
   <br>
   <br>
   <br>
-# 20. Image without bachground?<br>
+**20. Image without bachground?**<br>
   <br>
 import cv2<br>
 import numpy as np<br>
@@ -475,13 +475,13 @@ equ=np.hstack((image,z))<br>
 plt.title('Graylevel slicing w/o background')<br>
 plt.imshow(equ,'gray')<br>
 plt.show()<br>
-OUTPUT:<br>
+**OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/178707239-8ee25570-0cc2-44fc-aa1e-0a080d19e05c.png)<br>
   <br>
   <br>
   <br>
-# 21. histogram?<br>
+**21. histogram?**<br>
   <br>
 import numpy as np<br>
 import skimage.color<br>
@@ -509,7 +509,7 @@ plt.ylabel("pixel count")<br>
 plt.xlim([0.0, 1.0])  # <- named arguments do not work here<br>
 plt.plot(bin_edges[0:-1], histogram)  # <- or here<br>
 plt.show()<br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
   <br>
 ![image](https://user-images.githubusercontent.com/97940151/178963447-d34d640f-6a57-44e8-a083-0f0b9292fcf5.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178963522-d9288839-8cd9-410e-972b-f8cb9b2b4daf.png)<br>
@@ -517,7 +517,7 @@ OUTPUT:-<br>
   <br>
   <br>
   <br>
-# 22. Program to perform basic image data analysis using intensity transformation?<br>
+**22. Program to perform basic image data analysis using intensity transformation?**<br>
   <br>
   a.Image negative<br>
   b. Log transformation<br>
@@ -552,7 +552,7 @@ OUTPUT:-<br>
     plt.figure(figsize=(5,5))<br>
     plt.imshow(log_transform(),cmap=plt.get_cmap(name='gray'))<br>
     plt.axis('off');
-  OUTPUT:-<br>
+  **OUTPUT:-**<br>
   ![image](https://user-images.githubusercontent.com/97940151/179963780-9a1a1619-def0-4cf8-98d3-3a3032762ffc.png)<br>
 # c.<br> 
    import imageio<br>
@@ -563,12 +563,12 @@ OUTPUT:-<br>
    plt.figure(figsize=(5,5))<br>
    plt.imshow(gamma_correction)<br>
    plt.axis('off'); <br> 
-  OUTPUT:-<br>
+  **OUTPUT:-**<br>
  ![image](https://user-images.githubusercontent.com/97940151/179963905-6e9bda49-e5de-4957-b40b-d85332569be9.png)<br>
   <br>
   <br>
   <br>
-# 23. Program to perform image manipulation?<br>
+**23. Program to perform image manipulation?**<br>
   <br>
 a. Sharpness<br>
 b. flipping<br>
@@ -608,7 +608,7 @@ im1=im.crop((50,25,175,200))<br>
 im1.show()<br>
 plt.imshow(im1)<br>
 plt.show()<br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966254-6f526475-ddfe-46e3-a9f6-832df99ce58c.png)<br>
 
 
