@@ -341,10 +341,10 @@ image_sharped=enh_sha.enhance(sharpness)<br>
 image_sharped.show()<br>
 **OUTPUT:-**<br>
   <br>
-![image](https://user-images.githubusercontent.com/97940151/178718032-e69f77f4-8d44-44f7-a6a2-654234c06aa4.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/178718283-77c533f8-ce90-42ad-ad82-1c863c9e103e.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/178718354-d100b415-5363-41c5-b1e0-d7d1f6d23e0e.png)<br>
-![image](https://user-images.githubusercontent.com/97940151/178718423-2ade8460-afee-4b4b-a253-6b566b0b0e77.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/181207385-835e868f-1c38-4758-a438-e65a60aa9c18.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/181207586-85aae0fa-2c9e-4f36-8676-8c05e2fc3868.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/181207741-77dfd707-6eff-4bd4-afeb-bd14d2c41dd9.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/181208035-20590cd9-bf0a-44ff-937d-6a406d8b2997.png)<br>
 **18.Write a program to perform Morphological Operation?**<br>
   <br>
 import cv2<br>
