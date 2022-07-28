@@ -569,7 +569,7 @@ array_1 = np.array([[255, 0,17],<br>
                     [100,0, 255],<br>
                     [255,0,35]])<br>
 imshow(array_1);<br>
-**OUTPUT:-**
+**OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/181440039-bb14a98e-7842-4ada-8fea-0902f246d266.png)<br>
 **25. Generate a matrix to display the gray image?**<br>
 import numpy as np<br>
