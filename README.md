@@ -569,7 +569,94 @@ array_1 = np.array([[255, 0,17],<br>
                     [100,0, 255],<br>
                     [255,0,35]])<br>
 imshow(array_1);<br>
-
+**OUTPUT:-**
+![image](https://user-images.githubusercontent.com/97940151/181440039-bb14a98e-7842-4ada-8fea-0902f246d266.png)<br>
+**25. Generate a matrix to display the gray image?**<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+from skimage import img_as_uint<br>
+from skimage.io import imshow, imread<br>
+from skimage.color import rgb2hsv<br>
+from skimage.color import rgb2gray<br>
+array_1 = np.array([[255, 0,17], <br>
+                    [100,0, 255],<br>
+                    [255,0,35]])<br>
+imshow(array_1,cmap='gray');<br>
+**OUTPUT:-**<br>
+![image](https://user-images.githubusercontent.com/97940151/181440540-b33c2069-8122-444c-bc1e-38198bde5551.png)<br>
+**26. Write a code to read the image data in the form of matrix and find maximum,minimum,average and standard deviation?**<br>
+**MAXIMUM:-**<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+array_colors = np.array([[[245, 20, 36], <br>
+                         [10, 215, 30],<br>
+                         [40, 50, 205]],<br>
+                         [[70, 50, 10], <br>
+                    [25, 230, 85],<br>
+                    [12, 128, 128]],<br>
+                    [[25, 212, 3], <br>
+                    [55, 5, 250],<br>
+                    [240, 152, 25]],<br>
+                    ])<br>
+plt.imshow(array_colors)<br>
+np.max(array_colors)<br>
+**OUTPUT:-**<br>
+250<br>
+![image](https://user-images.githubusercontent.com/97940151/181441254-5eee4e61-b295-4622-a611-6df54432a505.png)<br>
+**MINIMUM:-**<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+array_colors = np.array([[[245, 20, 36], <br>
+                         [10, 215, 30],<br>
+                         [40, 50, 205]],<br>
+                         [[70, 50, 10], <br>
+                    [25, 230, 85],<br>
+                    [12, 128, 128]],<br>
+                    [[25, 212, 3],<br> 
+                    [55, 5, 250],<br>
+                    [240, 152, 25]],<br>
+                    ])<br>
+plt.imshow(array_colors)<br>
+np.min(array_colors)<br>
+**OUTPUT:-**<br>
+3<br>
+![image](https://user-images.githubusercontent.com/97940151/181441491-1af56639-ef76-4172-8100-29be3b0154eb.png)<br>
+**AVERAGE:-**<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+array_colors = np.array([[[245, 20, 36], <br>
+                         [10, 215, 30],<br>
+                         [40, 50, 205]],<br>
+                         [[70, 50, 10], <br>
+                    [25, 230, 85],<br>
+                    [12, 128, 128]],<br>
+                    [[25, 212, 3], <br>
+                    [55, 5, 250],<br>
+                    [240, 152, 25]],<br>
+                    ])<br>
+plt.imshow(array_colors)<br>
+np.average(array_colors)<br>
+**OUTPUT:-**<br>
+94.66666666666667<br>
+![image](https://user-images.githubusercontent.com/97940151/181441736-9a32c7f5-c40e-4772-b6f8-00259470de30.png)<br>
+**STANDARD DEVIATION:-**<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+array_colors = np.array([[[245, 20, 36], <br>
+                         [10, 215, 30],<br>
+                         [40, 50, 205]],<br>
+                         [[70, 50, 10], <br>
+                    [25, 230, 85],<br>
+                    [12, 128, 128]],<br>
+                    [[25, 212, 3], <br>
+                    [55, 5, 250],<br>
+                    [240, 152, 25]],<br>
+                    ])<br>
+plt.imshow(array_colors)<br>
+np.std(array_colors)<br>
+**OUTPUT:-**<br>
+87.50068782798436<br>
+![image](https://user-images.githubusercontent.com/97940151/181442090-7b7999c6-def6-479a-82bf-d6ef128526f3.png)<br>
 
 
 
