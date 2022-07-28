@@ -557,7 +557,18 @@ plt.imshow(im1)<br>
 plt.show()<br>
 **OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966254-6f526475-ddfe-46e3-a9f6-832df99ce58c.png)<br>
-
+**24.Generate a matrix to display the image?**<br>
+# First import the required Python Libraries<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+from skimage import img_as_uint<br>
+from skimage.io import imshow, imread<br>
+from skimage.color import rgb2hsv<br>
+from skimage.color import rgb2gray<br>
+array_1 = np.array([[255, 0,17],<br> 
+                    [100,0, 255],<br>
+                    [255,0,35]])<br>
+imshow(array_1);<br>
 
 
 
