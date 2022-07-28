@@ -558,7 +558,7 @@ plt.show()<br>
 **OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/179966254-6f526475-ddfe-46e3-a9f6-832df99ce58c.png)<br>
 **24.Generate a matrix to display the image?**<br>
-# First import the required Python Libraries<br>
+#First import the required Python Libraries<br>
 import numpy as np<br>
 import matplotlib.pyplot as plt<br>
 from skimage import img_as_uint<br>
