@@ -681,7 +681,7 @@ def printPattern(n):<br>
 #Driver Code<br>
 n = 4;<br>
 printPattern(n);<br>
-OUTPUT:-<br>
+**OUTPUT:-**<br>
 3 3 3 3 3 3 3 <br>
 3 2 2 2 2 2 3 <br>
 3 2 1 1 1 2 3 <br>
