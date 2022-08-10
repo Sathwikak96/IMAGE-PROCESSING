@@ -289,7 +289,7 @@ plt.imshow(bitwiseNot_img2<br>
 cv2.waitKey(0)<br>
 **OUTPUT:-**<br>
  <br> 
-![image](https://user-images.githubusercontent.com/97940151/178968291-6cd6b51a-e213-4ddb-b9a5-b98ccbb97d8d.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/183875797-d73963a6-0bc1-454a-bcb6-061f9a37de8a.png)<br>
 **16. Develop an image usingn Blurring method?**<br>
 <br>
 #importing libraries<br>
