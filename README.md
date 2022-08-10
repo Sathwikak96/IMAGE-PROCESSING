@@ -9,6 +9,7 @@ cv2.destroyAllWindows()<br>
 <br>
 **OUTPUT**:-<br>
 ![image](https://user-images.githubusercontent.com/97940151/174038089-0609c4b5-63a7-4835-ae9a-b3eebab4484b.png)<br>
+--------------------------------------------------------------------------------------<br>
 **2. Develop a program to display the image using matplotlib?** <br>
 <br>
 import matplotlib.image as mping<br>
@@ -18,6 +19,7 @@ plt.imshow(img)<br>
 <br>
 **OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/174039132-01d337a3-80c1-4204-bfd9-cb5a1514dab7.png)<br>
+-------------------------------------------------------------------------------------<br>
 **3. Develop a program to perform a linear transformation using rotation?**<br>
 <br>
 import cv2<br>
@@ -30,6 +32,7 @@ cv2.destroyAllWindows()<br>
 <br>
 **OUTPUT:-**<br>
 ![image](https://user-images.githubusercontent.com/97940151/174040352-3f9bea71-216a-4061-815f-cab7a428f5d5.png)<br>
+--------------------------------------------------------------------------------<br>
 **4. Develop a program to convert color tree to RCB color values?**<br>
 <br>
 from PIL import ImageColor<br>
@@ -43,6 +46,7 @@ print(img3)<br>
 **OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174041325-6755a879-4216-49e7-ae20-13a5c31b9320.png)<br>
+------------------------------------------------------------------------------------------------<br>
 **5.Write a program to create using a color?**<br>
 <br>
 from PIL import Image<br>
@@ -52,6 +56,7 @@ img.show()<br>
 **OUTPUT:-**<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940151/174042123-12f038b4-ff4f-4e51-8af6-d2f0690fccb3.png)<br>
+---------------------------------------------------------------------------------------------------<br>
 **6. Develop a program to visualize the image using various color spaces?**<br>
 <br>
 import cv2<br>
@@ -72,6 +77,7 @@ plt.show()<br>
 ![image](https://user-images.githubusercontent.com/97940151/179970122-ee39d298-9289-4cbb-b3d0-7bc1b1e8eb89.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/179970205-be5323c5-c4c6-4469-9834-86d28d4575c8.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/179970287-1a369ef1-e899-4cb7-82c8-57bb125d68d1.png)<br>
+----------------------------------------------------------------------------------------------------------<br>
 **7. Develop a program to display the image attributes?**<br>
 <br>
 from PIL import Image<br>
@@ -92,6 +98,7 @@ Mode: RGB<br>
 Size: (225, 225)<br>
 Width: 225<br>
 Height: 225<br>
+------------------------------------------------------------------------------------------------<br>
 **8. Convert the original image to gray scale and then to binary?**<br>
 <br>
 import cv2<br>
@@ -109,6 +116,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97940151/180175552-8e6759f6-8733-487a-93ef-f50c906e72ce.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180175697-ee52fe3b-55bb-47cd-a604-37d136e01002.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180176131-4b92090b-28d7-4fd1-8627-e29950d8b3e7.png)<br>
+-------------------------------------------------------------------------------------------------<br>
 **9. Resize the original image?**<br>
 <br>
 import cv2<br>
@@ -126,6 +134,7 @@ original image length width (168, 299, 3)<br>
 Resized image length width (160, 150, 3)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180202210-ebea768e-299d-4a01-958b-8c4a52f1cfa7.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180202312-c5d32b2b-55bd-4aa8-adf7-8ccd20940988.png)<br>
+-------------------------------------------------------------------------------------------------------<br>
  **10. Develop a program to read image using URL ?**<br>
  <br>
  url from skimage import io<br>
@@ -137,6 +146,7 @@ Resized image length width (160, 150, 3)<br>
  **OUTPUT:-**<br>
  <br>
 ![image](https://user-images.githubusercontent.com/97940151/180203529-8089d13e-c72f-4765-acb0-5076373cdb5a.png)<br>
+----------------------------------------------------------------------------------------------------------------<br>
 **11. Write a program to mask and blur the image?**<br>
 <br>
 import cv2<br>
@@ -192,6 +202,7 @@ plt.imshow(blur)<br>
 plt.show()<br>
 <br>
 ![image](https://user-images.githubusercontent.com/97940851/175257079-4bb9e433-07be-4e17-a7df-43fbac0010f6.png)<br>
+---------------------------------------------------------------------------------------------------------------<br>
 **12.Write a program to perform airthmetic operation on image**<br>
 <br>
 import cv2<br>
@@ -227,6 +238,7 @@ cv2.imwrite('output.jpg',fimg4)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180200746-f01a5689-587e-4b34-ac4a-4b9935287029.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180200816-8d61c20b-4529-4cef-a2fe-0e079ebf1e91.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/180200883-ec735242-c664-4d90-8ee2-f3d0f128af81.png)<br>
+---------------------------------------------------------------------------------------------------------------<br>
 **13.Develop the program to changeb the image to different Colour space?**<br>
  <br>
 import cv2<br>
@@ -251,6 +263,7 @@ cv2.destroyAllWindows()<br>
 ![image](https://user-images.githubusercontent.com/97940151/178719594-89d6f8a9-5a63-41d9-a2ab-434281dd9e41.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178719671-b40d80dc-a9e6-4784-ba2c-f065f90f22a6.png)<br>
 ![image](https://user-images.githubusercontent.com/97940151/178719747-a34268a3-d00d-4e53-ab9a-55f46387b662.png)<br>
+--------------------------------------------------------------------------------------------------------------------<br>
 **14. Program to create an image using 2D array?**<br>
 <br>
 import numpy as np<br>
