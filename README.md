@@ -732,3 +732,12 @@ cv2.imshow('Canny Edge Detection', edges)<br>
 cv2.waitKey(0)<br>
 cv2.destroyAllWindows()<br>
 OUTPUT:-<br>
+![image](https://user-images.githubusercontent.com/97940151/186399471-9345bd31-8fdb-4d19-9e6d-0bf47d042c20.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/186399600-b0cfc9a8-8506-4d1f-a0a2-0d0c723360ee.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/186399691-6fcd1438-a75a-471b-ab2c-67257f3e6234.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/186399808-ef92efa4-daf1-4a63-a7d3-56a27b6ec4bc.png)<br>
+![image](https://user-images.githubusercontent.com/97940151/186399886-a598ef49-6cc2-4972-a546-5f2bfba30680.png)<br>
+
+
+
+
